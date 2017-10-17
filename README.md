@@ -12,7 +12,10 @@ Code reviews are an integral part of the development process at Kargo. They ensu
 * Varible and function names should be using the `appropriateCase` for `that_particular_codebase`. 
 
 ### Nomenclature
+* Look out if all added variables are used
+* If code being refactored, make sure that all functions are still in use
 * Look out for variable names that don't mean anything to you. A good variable name should be clear as to what it represents.
+* Look out for magic numbers - values in code should be referenced by meaningful name
 * VariblesAndFunctionNamesShouldNeverBeSoLongThatTheyBecomeSentences: Keep things concise when possible and offer suggestions if things get a bit long winded.
 
 ### Comments
