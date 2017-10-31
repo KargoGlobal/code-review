@@ -27,7 +27,7 @@ Code reviews are an integral part of the development process at Kargo. They ensu
 ### Does it Work?
 * It is highly recommended to checkout the branch and test it on your local machine.
 * If any unit tests fail or if you notice issues when testing the functionality, report them back to the developer with detailed steps to reproduce.
-
+* Ensure that potential errors are handled gracefully. This is especially important for client side Javascript, where we can't feasibly test every possible device.
 
 ## Intermediate
 
@@ -43,4 +43,5 @@ Code reviews are an integral part of the development process at Kargo. They ensu
 # Advanced
 
 ### Major Refactors
-* Lorem ipsum
+* Classes and functions should have singular purposes. If not, they may be difficult to test and can often be refactored into multiple classes or functions.
+* If a method is difficult to unit test or it requires an excessive number of mocked functions/classes, it can likely be better written (and more easily tested) as multiple methods.
