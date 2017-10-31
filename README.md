@@ -5,11 +5,11 @@ Code reviews are an integral part of the development process at Kargo. They ensu
 
 ### Style / Formatting
 * Does the code style and formatting match the rest of the codebase? For JavaScript, Kargo recommends the [Airbnb Style Guide](https://github.com/airbnb/javascript/blob/master/README.md), so that's a good place to start in making suggestions.
-* Ensure they're using the appropriate spaces or tabs for indentation (depending on the codebase). 
+* Ensure they're using the appropriate spaces or tabs for indentation (depending on the codebase).
 * For something like ES6, for example, is the developer correctly using `const` and `let`? Are there any `var` references that should be used as `const` and `let`?
 * JavaScript has many ways to declare a function - are they keeping things consistent with other areas of the codebase?
-* Are there brackets opening and closing in the right spots? 
-* Varible and function names should be using the `appropriateCase` for `that_particular_codebase`. 
+* Are there brackets opening and closing in the right spots? (there may not be a 'correct' style, but it should be consistent within a codebase)
+* Varible and function names should be using the `appropriateCase` for `that_particular_codebase`.
 
 ### Nomenclature
 * Look out if all added variables are used
@@ -32,7 +32,7 @@ Code reviews are an integral part of the development process at Kargo. They ensu
 ## Intermediate
 
 ### Do You Understand It?
-* You should understand the code you're reviewing. If there is any aspect of the code you don't understand, it's likely that others will have trouble with it as well. 
+* You should understand the code you're reviewing. If there is any aspect of the code you don't understand, it's likely that others will have trouble with it as well.
 * If it's uncommented, you should ask the developer to write a comment explaining what it's doing.
 * If it's commented, it may be time to talk to the developer about re-architecting it in a way that is more readable.
 
