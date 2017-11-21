@@ -1,6 +1,11 @@
 # Performing Code Reviews at Kargo
 Code reviews are an integral part of the development process at Kargo. They ensure our code is cleaner, easier to work in, and help teach you some new skills along the way. Anyone can review code, but improving how you perform code reviews is a skill that takes experience. Here are some tips for getting started, from basic concepts to more advanced ones. Since Kargo uses JavaScript across much of its stack, some of these tips utilize JavaScript-specific examples, but they can apply to any language.
 
+## Contents
+- [The Basics](#the-basics)
+- [Intermediate](#intermediate)
+- [Advanced](#advanced)
+
 ## The Basics
 
 ### Style / Formatting
